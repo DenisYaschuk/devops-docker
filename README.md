@@ -4,9 +4,9 @@
 
 **Building docker image**
 
-``
+```
 docker build -t devops-kpi .
-``
+```
 
 **Run docker container with limits for cpu and memory and available on port 80
 
