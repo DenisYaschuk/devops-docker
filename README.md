@@ -13,16 +13,3 @@ docker build -t devops-kpi .
 ```
 docker run -d --rm --memory=50m --cpus="1.0" --name kpi -p 80:80 devops-kpi
 ```
-
-**Push docker image to docker hub**
-
-```
-docker build -t denyyeess/devops-kpi
-```
-
-**After that we're ready to push it to our repo**
-
-```
-docker login
-docker push denyyeess/devops-kpi
-```
